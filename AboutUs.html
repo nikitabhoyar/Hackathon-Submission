@@ -1,0 +1,158 @@
+<<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:black;
+  color:#fff;
+  font-size:20px;
+  font-family:plex Serif Semi Bold;
+  
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>The Crispy & Spicy  offer customers  deli bakery items and sandwiches and dishes.<br>  It is a restaurant, a bakery and a coffeehouse all rolled into one. <br>The Crispy & Spicy is a full-service cafe located in the Nagpur District of state Maharashtra.<br>It will provide a combination of excellent food at value pricing, with fun packaging and atmosphere.<br> The restaurant features a full menu of moderately priced "comfort" food influenced by African and <br>Indian cooking traditions.<br> based upon time honored recipes from around the world.<br> The cafe section of The  features a coffeehouse with a dessert <br>bar, magazines, and space for live performers.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="Neha.jpg"alt="Owner"width="100%">
+       <div class="container">
+        <h2>Neha kundra</h2>
+        <p class="title">Owner</p>
+        <p>Very Hardworking & Kind person.</p>
+         </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+       <img src="Owner.jpg" alt="Chef" width="100%">
+      <div class="container">
+        <h2>Neha Bhatiya</h2>
+        <p class="title">Chef</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="dii.png"  alt="Akansha" width="100%" > 
+       <div class="container">
+        <h2>Akansha Mehta</h2>
+        <p class="title">Manager</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+       </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="Adi.jpg"alt="Adi" width="100%" > 
+       <div class="container">
+        <h2>Adit Arora</h2>
+        <p class="title">Serving Saff</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+         </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+     <img src="host.jpg" alt="Hosting staff"  width="100%" >
+       <div class="container">
+        <h2>Pranav Desai</h2>
+        <p class="title">Hosting Staff</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+         </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="member.jpg"  alt="workers" width="100%">
+       <div class="container">
+        <h2>All Members here</h2>
+        <p class="title">Buspersons</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

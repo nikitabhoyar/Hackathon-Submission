@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Restuarant Website</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta name="viewport"  content="width=device-width,intial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="nik clearfix">
+             
+             <ul class="main-nav animated slideInDown" id="main-nav-js">
+             	<li><a href="AboutUs.html">About Us</a></li>
+             	<li><a href="#">MenuCard</a></li>
+             	<li><a href="#">Contact Us</a></li>
+             	<li><a href="#">Locations</a></li>
+                <li><a href="#">Sign Up</a></li>
+             </ul>
+             <a href="#" class="mobile-icon" onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+             
+			</div >
+		</nav>
+		<div class="main-content-header">
+	    <h1> Amazing Cakes & Food for You.</h1>
+		<a href="#" class="btn btn-one">Click to order</a>
+		<a href="#" class="btn btn-two">Show me more</a>
+	</div>
+        </header>
+        <script type="text/javascript">
+	    function slideshow(){
+	    var x = document.getElementsByTagName('check-class');
+	    if(x.style.display === "none"){
+           x.style.display="block";
+	    }else{
+	    	x.style.display="none";
+	    }
+	}
+	</script>	
+
+	
+
+</body>
+</html>
